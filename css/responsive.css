@@ -67,8 +67,6 @@
 /* =================MOBILE DEVICE==================== */
 
 @media screen and (max-width: 414px){
-  
-
   nav .container .btn {
     display: none;
   }
@@ -78,23 +76,37 @@
 
   .left .sidebar i {
     margin-left: -1rem;
-
     }
+
 
   main .container .middle {
     width: 90%;
     }
-
 }
 
 
-@media screen and (max-width: 298px){
 
+@media screen and (max-width: 356px){
+  main .container .left .sidebar {
+    height: 4rem;
+  }
+
+  main .container .left{
+    width: 75%;
+  }
+
+  main .container .middle{
+    width: 75%;
+  }
+}
+
+
+
+@media screen and (max-width: 298px){
   .logo {
     font-size: 1rem;
     }
 
-  
   nav .container .profile-photo {
     width: 2rem;
     }
@@ -126,3 +138,5 @@ main .container .left .sidebar {
 	font-size: 0.8rem;
   }
 }
+
+
