@@ -86,17 +86,17 @@
 
 
 
-@media screen and (max-width: 356px){
+@media screen and (max-width: 328px){
   main .container .left .sidebar {
     height: 4rem;
   }
 
   main .container .left{
-    width: 75%;
+    width: 68%;
   }
 
   main .container .middle{
-    width: 75%;
+    width: 68%;
   }
 }
 
