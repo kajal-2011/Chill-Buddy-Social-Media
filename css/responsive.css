@@ -64,10 +64,68 @@
   }
 }
 
-
+/* =================MOBILE DEVICE==================== */
 
 @media screen and (max-width: 414px){
-  .container {
-    width: 96%;
+  
+  main .container .left {
+    width: 90%;
   }
+
+  .left .sidebar i {
+    margin-left: -1rem;
+
+}
+
+  main .container .middle {
+    width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 298px){
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  nav .container .btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  nav .container .profile-photo {
+    width: 2rem;
+  }
+
+  main .container .left {
+    width: 62%;
+   
+  }
+
+  main .container .middle {
+    width: 62%;
+     
+  }
+
+  .left .sidebar i {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+
+}
+
+main .container .left .sidebar {
+    height: 4rem;
+  }
+
+.left .sidebar i .notification-count {
+  font-size: 0.5rem;
+  padding: 0.1rem 0.2rem;
+}
+
+.middle .btn {
+	padding: 0.4rem 1rem;
+	font-size: 0.8rem;
+}
 }
