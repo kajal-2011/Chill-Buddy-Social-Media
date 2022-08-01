@@ -167,7 +167,7 @@ main .container .left .profile {
 .left .sidebar .menu-item {
   display: flex;
   align-items: center;
-  height: 3.5rem;
+  height: 3.1rem;
   cursor: pointer;
   transition: var(--transition);
   position: relative;
