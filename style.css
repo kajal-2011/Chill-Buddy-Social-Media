@@ -264,7 +264,7 @@ main .container .left .profile {
   background-size: cover;
 }
 .middle .stories .story:nth-child(4) {
-  background-image: url(images/story-4.jpg);
+  background-image: url(images/profile-18.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -333,6 +333,11 @@ main .container .left .profile {
   border-radius: var(--card-border-radius);
   overflow: hidden;
   margin: 0.7rem 0;
+}
+
+.middle .feed .photo img {
+	height: 29rem;
+	width: 29rem;
 }
 
 .middle .feed .action-buttons {

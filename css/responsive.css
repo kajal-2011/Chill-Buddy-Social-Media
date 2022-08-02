@@ -139,4 +139,12 @@ main .container .left .sidebar {
   }
 }
 
+@media screen and (max-width: 268px){
+  main .container .left {
+    width: 55%;
+    }
 
+  main .container .middle {
+    width: 55%;  
+  }
+}
